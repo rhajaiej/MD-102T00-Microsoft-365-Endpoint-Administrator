@@ -74,6 +74,12 @@ This lab requires:
 > - **Email address**: admin@<TenantPrefix>.onmicrosoft.com
 > 8. After the organization profile is saved, select **Try now** to activate the trial.
 > 9. Return to the Intune admin center and refresh the **Intune add-ons** page. On the **Your add-ons** tab, confirm that **Microsoft Intune Suite Trial** appears with a **Purchased quantity** of **250**. This can take a few minutes.
+> 
+>    ![Intune Suite – image 1](media/lab01/01.PNG)
+>
+>    ![Intune Suite – image 2](media/lab01/02.PNG)
+>
+>    ![Intune Suite – image 3](media/lab01/03.PNG)
 >
 > On the **All add-ons** tab, the individual add-ons still show **Available for trial or purchase**. That's expected because the Suite trial includes them.
 
