@@ -81,6 +81,8 @@ This lab requires:
 >
 >    ![Intune Suite – image 3](media/lab01/03.PNG)
 >
+>    ![Intune Suite – image 4](media/lab01/04.PNG)
+>
 > On the **All add-ons** tab, the individual add-ons still show **Available for trial or purchase**. That's expected because the Suite trial includes them.
 
 ---
