@@ -260,7 +260,7 @@ Dynamic groups automatically update membership based on user attributes. You'll 
    > Fix any red underlines in the editor before you save. You can dismiss the preview banner about the `MemberOf` operator.
 
 1. Select **OK** to close the editor, then select **Save** at the top of the page.
-
+>    ![Intune Suite – image 22](media/lab01/22.PNG)
 1. Back in the **New Group** page, select **Create**.
 
 1. Select **Refresh** from the top toolbar.
