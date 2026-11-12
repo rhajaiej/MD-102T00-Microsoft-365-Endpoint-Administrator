@@ -197,7 +197,7 @@ You'll create an assigned (static membership) security group for Intune policy t
 1. On the **Set up the basics** page, enter the following:
    - **Name:** `sg-Intune-Pilot-Users`
    - **Description:** `Pilot users for Intune policy testing`
-
+>    ![Intune Suite – image 20](media/lab01/20.PNG)
 1. Select **Next**.
 
 1. On the **Edit settings** page, leave the default settings and select **Next**.
