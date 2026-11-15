@@ -747,7 +747,7 @@ Pilot users at Contoso Healthcare receive corporate laptops pre-staged for clini
 1. On the **Review + create** tab, select **Create**.
 >    ![Intune Suite – image 5.3](media/lab01/Exercice3/5.3.PNG)
 1. Back on the **Enrollment Status Page** list, confirm `ESP - Pilot - Blocking` appears with **Priority 1** (above **Default**). The first profile a user/device matches wins.
->    ![Intune Suite – image 5.4](media/lab01/Exercice3/5.4.PNG)
+>    ![Intune Suite – image 5.4](media/lab01/Exercice3/5.4.png)
 **You have successfully created a targeted Enrollment Status Page profile for pilot users.**
 
 ---
