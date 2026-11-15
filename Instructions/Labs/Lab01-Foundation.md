@@ -687,11 +687,11 @@ In this exercise you'll:
 The **Enrollment Status Page (ESP)** shows the provisioning status to people enrolling Windows devices and signing in for the first time. It can block device use until configured apps and policies are applied, so users don't attempt to use a half-provisioned device. The **Default** ESP profile applies to all users and devices when no other ESP profile is assigned. You'll configure it to show installation progress for Contoso.
 
 1. In the **Microsoft Intune admin center**, on the **Enrollment** page, make sure you are on the **Windows** tab. Under **Windows Autopilot**, select **Enrollment Status Page**.
-
+>    ![Intune Suite – image 4.3](media/lab01/Exercice3/4.3.png)
 1. On the **Enrollment Status Page** list, select the **All users and all devices** link (assigned with **Default** Priority).
-
+>    ![Intune Suite – image 4.4](media/lab01/Exercice3/4.4.PNG)
 1. On the **All users and all devices** page, select **Manage > Properties** in the left navigation, then select **Edit** next to **Settings**.
-
+>    ![Intune Suite – image 4.5](media/lab01/Exercice3/4.5.png)
 1. Configure the following settings:
    - **Show app and profile installation progress:** Yes
    - **Show an error when installation takes longer than specified number of minutes:** `60`
