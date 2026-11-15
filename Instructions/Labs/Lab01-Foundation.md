@@ -716,10 +716,11 @@ The **Enrollment Status Page (ESP)** shows the provisioning status to people enr
 Pilot users at Contoso Healthcare receive corporate laptops pre-staged for clinical workflows. You'll create a stricter ESP profile that blocks device use until required apps are installed, and assign it to `sg-Intune-Pilot-Users` so it takes priority over the Default.
 
 1. On the **Enrollment Status Page** list, select **+ Create**.
-
+>    ![Intune Suite – image 4.8](media/lab01/Exercice3/4.8.PNG)
 1. On the **Basics** tab, enter:
    - **Name:** `ESP - Pilot - Blocking`
    - **Description:** `Blocks pilot devices from use until clinical apps and security baseline are installed`
+ >    ![Intune Suite – image 4.9](media/lab01/Exercice3/4.9.PNG)
 
 1. Select **Next**.
 
@@ -734,19 +735,19 @@ Pilot users at Contoso Healthcare receive corporate laptops pre-staged for clini
    - **Allow users to reset device if installation error occurs:** Yes
    - **Allow users to use device if installation error occurs:** No
    - **Block device use until required apps are installed if they are assigned to the user/device:** All
-
+>    ![Intune Suite – image 5.0](media/lab01/Exercice3/5.0.png)
 1. Select **Next**.
 
 1. On the **Assignments** page, under **Included groups**, select **Add groups**.
 
 1. Search for and select **sg-Intune-Pilot-Users**, then select **Select**.
-
+>    ![Intune Suite – image 5.1](media/lab01/Exercice3/5.1.png)
 1. Select **Next**, then **Next** again to skip **Scope tags**.
-
+>    ![Intune Suite – image 5.2](media/lab01/Exercice3/5.2.PNG)
 1. On the **Review + create** tab, select **Create**.
-
+>    ![Intune Suite – image 5.3](media/lab01/Exercice3/5.3.PNG)
 1. Back on the **Enrollment Status Page** list, confirm `ESP - Pilot - Blocking` appears with **Priority 1** (above **Default**). The first profile a user/device matches wins.
-
+>    ![Intune Suite – image 5.4](media/lab01/Exercice3/5.4.PNG)
 **You have successfully created a targeted Enrollment Status Page profile for pilot users.**
 
 ---
