@@ -271,7 +271,7 @@ Dynamic groups automatically update membership based on user attributes. You'll 
 
    > [!NOTE]
    > Membership evaluation can take 5–15 minutes. Expect four members, such as Johanna Lorenz and Lidia Holloway. Lab User2 isn't included because it has no usage location set.
-
+>    ![Intune Suite – image 23](media/lab01/23.PNG)
 1. Select the **Members** tab to view group members.
 
 **You have successfully created a dynamic user group with a compound membership rule.**
