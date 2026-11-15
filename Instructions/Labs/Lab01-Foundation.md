@@ -706,6 +706,7 @@ The **Enrollment Status Page (ESP)** shows the provisioning status to people enr
 
 1. Select **Review + save**, then select **Save**.
 >    ![Intune Suite – image 4.6](media/lab01/Exercice3/4.6.png)
+>    ![Intune Suite – image 4.7](media/lab01/Exercice3/4.7.png)
 **You have successfully configured the Default Enrollment Status Page.**
 
 ---
