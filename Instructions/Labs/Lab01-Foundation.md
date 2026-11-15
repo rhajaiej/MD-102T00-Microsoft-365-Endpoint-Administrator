@@ -775,27 +775,28 @@ Enrollment restrictions control which device platforms can enroll in Intune. Rev
 You'll create a policy that limits how many devices each user can enroll. This protects Contoso from license sprawl and stolen-credential abuse.
 
 1. In the **Microsoft Intune admin center**, on the **Enrollment** page (**Devices** > **Device onboarding** > **Enrollment**), make sure you are on the **Windows** tab. Under **Enrollment options**, select **Device limit restriction**.
-
+>    ![Intune Suite – image 5.9](media/lab01/Exercice3/5.9.png)
 1. Select **+ Create restriction**.
 
 1. In the **Create restriction** page, enter the following and select **Next**:
    - **Name:** `Device Limit - 10 Devices`
    - **Description:** `Limit users to 10 enrolled devices`
-
+>    ![Intune Suite – image 6.0](media/lab01/Exercice3/6.0.png)
+>    ![Intune Suite – image 6.1](media/lab01/Exercice3/6.1.png)
 1. Under **Device limit**, enter `10` and select **Next**.
-
+>    ![Intune Suite – image 6.2](media/lab01/Exercice3/6.2.png)
 1. Select **Next** and skip **Scope tags**.
-
+>    ![Intune Suite – image 6.3](media/lab01/Exercice3/6.3.png)
 1. Under **Assignments**, select **Add groups**.
 
 1. Search for and select **sg-Intune-Pilot-Users**.
-
+>    ![Intune Suite – image 6.4](media/lab01/Exercice3/6.4.png)
 1. Select **Select**.
 
 1. Select **Next**.
 
 1. Under **Review + create**, select **Create**.
-
+>    ![Intune Suite – image 6.5](media/lab01/Exercice3/6.5.png)
 **You have successfully created and assigned a device limit restriction policy.**
 
 ---
