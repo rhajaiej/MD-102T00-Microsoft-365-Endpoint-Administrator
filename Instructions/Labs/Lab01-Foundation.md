@@ -596,7 +596,7 @@ Microsoft Entra LAPS automatically manages and rotates local administrator passw
 
 1. Select **Save** at the top of the page.
 
->    ![Intune Suite – image 3.4](media/lab01/Exercice3/3.4.PNG)
+>    ![Intune Suite – image 3.4](media/lab01/Exercice3/3.4.png)
 
 **Part B — Configure the LAPS password policy (Intune admin center):**
 
@@ -609,7 +609,7 @@ Microsoft Entra LAPS automatically manages and rotates local administrator passw
 1. In the **Create a profile** pane, configure the following:
    - **Platform:** Windows
    - **Profile:** Local admin password solution (Windows LAPS)
->    ![Intune Suite – image 3.5](media/lab01/Exercice3/3.5.PNG)
+>    ![Intune Suite – image 3.5](media/lab01/Exercice3/3.5.png)
 1. Select **Create**.
 
 1. On the **Basics** tab, enter:
