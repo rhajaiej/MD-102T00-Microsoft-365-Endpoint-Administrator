@@ -705,7 +705,7 @@ The **Enrollment Status Page (ESP)** shows the provisioning status to people enr
    > The pilot group gets a blocking ESP profile in Task 3.
 
 1. Select **Review + save**, then select **Save**.
-
+>    ![Intune Suite – image 4.6](media/lab01/Exercice3/4.6.png)
 **You have successfully configured the Default Enrollment Status Page.**
 
 ---
