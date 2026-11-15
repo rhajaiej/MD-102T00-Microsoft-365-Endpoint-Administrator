@@ -666,6 +666,7 @@ In this exercise you'll:
    > You may see a one-time **"Devices has changed"** tour banner. Select **Skip** to dismiss it.
 
 1. Under **Device onboarding**, select **Enrollment**.
+>    ![Intune Suite – image 4.1](media/lab01/Exercice3/4.1.PNG)
 
 1. On the **Windows** tab, under **Enrollment options**, select **Automatic Enrollment**.
 
@@ -674,7 +675,7 @@ In this exercise you'll:
 1. Leave **Windows Information Protection (WIP) user scope** set to **None**. WIP is deprecated.
 
 1. Leave the **MDM terms of use URL**, **MDM discovery URL**, and **MDM compliance URL** at their auto-populated defaults.
-
+>    ![Intune Suite – image 4.2](media/lab01/Exercice3/4.2.PNG)
 1. Select **Save**.
 
 **You have configured automatic MDM enrollment for your tenant.**
