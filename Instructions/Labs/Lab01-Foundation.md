@@ -551,6 +551,7 @@ Before devices can enroll in Intune, you need to configure device registration s
    > **Users may register their devices with Microsoft Entra** is unavailable and set to **All**. That's expected. Ignore the banner that recommends Conditional Access for MFA.
 
 1. Select **Save** at the top of the page if you made any changes.
+>    ![Intune Suite – image 3.1](media/lab01/3.1.PNG)
 
 **You have successfully configured device join settings.**
 
@@ -572,7 +573,8 @@ By default, the user who performs a Microsoft Entra join becomes a local adminis
 1. Search for and select **Allan Deyoung**.
 
 1. Select **Add**.
-
+>    ![Intune Suite – image 3.2](media/lab01/3.2.PNG)
+>    ![Intune Suite – image 3.3](media/lab01/3.3.PNG)
 **You have successfully configured additional local administrators for Microsoft Entra joined devices.**
 
 ---
