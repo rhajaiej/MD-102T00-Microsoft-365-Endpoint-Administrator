@@ -596,6 +596,8 @@ Microsoft Entra LAPS automatically manages and rotates local administrator passw
 
 1. Select **Save** at the top of the page.
 
+>    ![Intune Suite – image 3.4](media/lab01/Exercice3/3.4.PNG)
+
 **Part B — Configure the LAPS password policy (Intune admin center):**
 
 1. In the browser, navigate to **https://intune.microsoft.com**.
@@ -607,13 +609,13 @@ Microsoft Entra LAPS automatically manages and rotates local administrator passw
 1. In the **Create a profile** pane, configure the following:
    - **Platform:** Windows
    - **Profile:** Local admin password solution (Windows LAPS)
-
+>    ![Intune Suite – image 3.5](media/lab01/Exercice3/3.5.PNG)
 1. Select **Create**.
 
 1. On the **Basics** tab, enter:
    - **Name:** `Contoso LAPS Policy`
    - **Description:** `Manages and rotates the local Administrator password on Microsoft Entra joined devices`
-
+>    ![Intune Suite – image 3.6](media/lab01/Exercice3/3.6.PNG)
 1. Select **Next**.
 
 1. On the **Configuration settings** tab, configure the following:
@@ -625,17 +627,18 @@ Microsoft Entra LAPS automatically manages and rotates local administrator passw
    - **Post Authentication Actions:** Reset the password and logoff the managed account...
    - **Post Authentication Reset Delay:** select Configured and enter `24` for hours
    - **Automatic Account Management Enabled:** The target account will not be automatically managed (Default)
-
+>    ![Intune Suite – image 3.7](media/lab01/Exercice3/3.7.PNG)
 1. Select **Next**.
 
 1. On the **Scope tags** tab, select **Next**.
 
 1. On the **Assignments** tab, under **Groups**, select **All devices**.
-
+>    ![Intune Suite – image 3.8](media/lab01/Exercice3/3.8.PNG)
 1. Select **Next**.
 
 1. On the **Review + create** tab, review the settings and select **Create**.
-
+>    ![Intune Suite – image 3.9](media/lab01/Exercice3/3.9.PNG)
+>    ![Intune Suite – image 4.0](media/lab01/Exercice3/4.0.PNG)
 **You have successfully enabled Microsoft Entra LAPS and configured the password policy in Intune.**
 
 ---
