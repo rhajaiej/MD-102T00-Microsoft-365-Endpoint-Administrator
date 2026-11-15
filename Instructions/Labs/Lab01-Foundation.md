@@ -757,13 +757,13 @@ Pilot users at Contoso Healthcare receive corporate laptops pre-staged for clini
 Enrollment restrictions control which device platforms can enroll in Intune. Reviewing the defaults helps you understand what the Contoso tenant will accept before SEA-DEV1 and SEA-DEV2 enroll in Exercise 5.
 
 1. In the **Microsoft Intune admin center**, on the **Enrollment** page, make sure you are on the **Windows** tab. Under **Enrollment options**, select **Device platform restriction**.
-
+>    ![Intune Suite – image 5.5](media/lab01/Exercice3/5.5.png)
 1. On the **Enrollment restrictions** page, under **Device type restrictions**, select the **All Users** link (**Default** priority).
-
+>    ![Intune Suite – image 5.6](media/lab01/Exercice3/5.6.png)
 1. Select **Manage > Properties** in the left navigation. Select **Edit** next to **Platform settings**.
-
+>    ![Intune Suite – image 5.7](media/lab01/Exercice3/5.7.png)
 1. In the **Default** restriction policy, review the current **Platform settings**. Review which device platforms are allowed (for example, Windows, Android, iOS/iPadOS, and macOS) and the enrollment restrictions configured for each platform, such as Personally owned, Versions, and Device manufacturer settings.
-
+>    ![Intune Suite – image 5.8](media/lab01/Exercice3/5.8.PNG)
 1. Close the policy details pane without making changes.
 
 **You have successfully reviewed the default enrollment restrictions.**
