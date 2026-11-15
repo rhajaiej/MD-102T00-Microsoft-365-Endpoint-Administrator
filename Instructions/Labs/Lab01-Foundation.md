@@ -362,7 +362,7 @@ You need to delegate administrative access to team members who will manage diffe
 
    > [!NOTE]
    > If **Membership** and **Setting** tabs appear, select **Active**, enter a justification if required, and then select **Assign**. This lab uses permanent active assignments for simplicity.
-
+>    ![Intune Suite – image 00](media/lab01/00.PNG)
 **You have successfully assigned the Intune Administrator role to Allan Deyoung.**
 
 ---
@@ -376,7 +376,7 @@ You need to delegate administrative access to team members who will manage diffe
 1. Select **Add assignments**.
 
 1. In the **Add assignments** page, on the **Directory roles** pane, search for and select **Cloud Device Administrator**, and then select **Add**.
-
+>    ![Intune Suite – image 01](media/lab01/01.PNG)
 **You have successfully assigned the Cloud Device Administrator role to Joni Sherman.**
 
 ---
@@ -444,7 +444,8 @@ You'll assign a Helpdesk Administrator role scoped to only the IT Department adm
 
    > [!NOTE]
    > If **Membership** and **Setting** tabs appear, select **Active**, enter a justification if required, and then select **Assign**. This lab uses permanent active assignments for simplicity.
-
+>    ![Intune Suite – image 02](media/lab01/02.PNG)
+>    ![Intune Suite – image 03](media/lab01/03.PNG)
 **You have successfully assigned a scoped Helpdesk Administrator role.**
 
 ---
@@ -472,7 +473,7 @@ Microsoft Entra ID roles (Task 1–5) delegate Entra-level permissions. Intune i
 1. On the **Assignments** tab, leave **Groups** empty for now — you'll tag specific policies (not groups) starting in **Lab 02 Exercise 1**. Select **Next**.
 
 1. On the **Review + create** tab, select **Create**.
-
+>    ![Intune Suite – image 04](media/lab01/04.PNG)
 **Part B — Create the `Pharmacy Helpdesk` custom Intune role**
 
 1. In **Tenant administration**, select **Roles**, then select **All roles**.
@@ -518,6 +519,13 @@ Microsoft Entra ID roles (Task 1–5) delegate Entra-level permissions. Intune i
 1. On the **Review + create** page, select **Create**.
 
 **You have successfully created the `Pharmacy` scope tag and the `Pharmacy Helpdesk` custom Intune role.**
+>    ![Intune Suite – image 05](media/lab01/05.PNG)
+>    ![Intune Suite – image 06](media/lab01/06.PNG)
+>    ![Intune Suite – image 07](media/lab01/07.PNG)
+>    ![Intune Suite – image 08](media/lab01/08.PNG)
+>    ![Intune Suite – image 09](media/lab01/09.PNG)
+>    ![Intune Suite – image 10](media/lab01/10.PNG)
+>    ![Intune Suite – image 11](media/lab01/11.PNG)
 
 ---
 
