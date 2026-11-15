@@ -289,7 +289,7 @@ You'll create a dynamic group that automatically includes Windows device objects
    - **Group name:** `dyn-Windows-Devices`
    - **Group description:** `Dynamic group for all Windows devices`
    - **Membership type:** Dynamic Device
-
+>    ![Intune Suite – image 25](media/lab01/25.PNG)
 1. Under **Dynamic device members**, select **Add dynamic query**.
 
 1. In the **Dynamic membership rules** page, configure the following rule:
@@ -300,7 +300,7 @@ You'll create a dynamic group that automatically includes Windows device objects
 1. Select **Add expression**.
 
 1. Select **Save**.
-
+>    ![Intune Suite – image 24](media/lab01/24.PNG)
 1. Back in the **New Group** page, select **Create**.
 
    > [!NOTE]
@@ -329,7 +329,7 @@ You'll create a second dynamic device group, this one for Windows Autopilot regi
    ```text
    (device.devicePhysicalIDs -any (_ -startsWith "[ZTDid]"))
    ```
-
+>    ![Intune Suite – image 27](media/lab01/27.PNG)
 1. Select **Save**, then back in the **New Group** page, select **Create**.
 
    > [!NOTE]
