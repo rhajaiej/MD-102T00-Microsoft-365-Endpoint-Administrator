@@ -889,7 +889,7 @@ You'll now enroll two Windows 11 devices (SEA-DEV1 and SEA-DEV2) into Intune by 
    - **Managed by:** Intune
    - **Ownership:** Corporate
    - **Compliance:** Compliant (may show "Not evaluated" initially)
-
+>    ![Intune Suite – image 03](media/lab01/Exercice5/03.PNG)
 1. At the top of the device list, turn off **Preview new device view** if it's on. This lab uses the classic device view.
 
 1. Select **SEA-DEV1** from the list to view device details.
