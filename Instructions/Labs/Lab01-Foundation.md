@@ -873,7 +873,8 @@ You'll now enroll two Windows 11 devices (SEA-DEV1 and SEA-DEV2) into Intune by 
 1. On the **You're all set!** page, select **Done**.
 
 **You have successfully enrolled SEA-DEV1 in Microsoft Entra and Intune.**
-
+>    ![Intune Suite – image 01](media/lab01/Exercice5/01.PNG)
+>    ![Intune Suite – image 02](media/lab01/Exercice5/02.PNG)
 ---
 
 ### Task 2: Verify SEA-DEV1 enrollment in the Intune admin center
