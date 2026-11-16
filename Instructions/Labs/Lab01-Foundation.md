@@ -824,15 +824,15 @@ Contoso Healthcare doesn't want personal Android phones enrolling in Intune — 
    - **Android device administrator → Personally owned:** Block (unavailable when the platform is blocked)
 
    Leave version range and device manufacturer blank on both rows.
->    ![Intune Suite – image 05](media/lab01/Exercice4/05.png)
+>    ![Intune Suite – image 05](media/lab01/Exercice4/05.PNG)
 1. Select **Next**.
 
 1. On the **Scope tags** tab, leave the **default** scope tag (this restriction is tenant-wide, not Pharmacy-scoped). Select **Next**.
->    ![Intune Suite – image 06](media/lab01/Exercice4/06.png)
+>    ![Intune Suite – image 06](media/lab01/Exercice4/06.PNG)
 1. On the **Assignments** tab, under **Included groups**, select **Add groups**, search and select **sg-Intune-Pilot-Users**, and then select **Next**.
 >    ![Intune Suite – image 07](media/lab01/Exercice4/07.png)
 1. On the **Review + create** tab, select **Create**.
->    ![Intune Suite – image 08](media/lab01/Exercice4/08.png)
+>    ![Intune Suite – image 08](media/lab01/Exercice4/08.PNG)
 1. On the **Enrollment restrictions** page, confirm `Android - Block personal` appears in the list with priority **1** (above **Default**). Higher-priority restrictions evaluate first.
 >    ![Intune Suite – image 09](media/lab01/Exercice4/09.png)
 **You have successfully blocked personally owned Android device enrollment.**
