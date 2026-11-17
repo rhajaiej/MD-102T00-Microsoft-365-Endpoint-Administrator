@@ -1021,7 +1021,7 @@ The Autopilot hardware hash uniquely identifies a device and is required for Aut
    - **Device Serial Number**
    - **Windows Product ID**
    - **Hardware Hash** (long base64-encoded string)
->    ![Intune Suite – image 03](media/lab01/Exercice6/06.PNG)
+>    ![Intune Suite – image 03](media/lab01/Exercice6/03.PNG)
 1. Close Notepad.
 
 **You have successfully generated the Autopilot hardware hash for SEA-DEV3.**
@@ -1037,7 +1037,7 @@ The Autopilot hardware hash uniquely identifies a device and is required for Aut
 1. In the **Microsoft Intune admin center**, select **Devices**, and under **Device onboarding**, select **Enrollment**.
 
 1. Under **Windows Autopilot**, select **Devices**.
-
+>    ![Intune Suite – image 04](media/lab01/Exercice6/04.PNG)
 1. Select **Import** from the top toolbar.
 
 1. In the **Add Autopilot devices** pane, select the folder icon to browse for the CSV file.
@@ -1050,14 +1050,14 @@ The Autopilot hardware hash uniquely identifies a device and is required for Aut
 1. Select **SEA-DEV3-AutopilotHash.csv** and select **Open**.
 
 1. In the **Add Autopilot devices** pane, select **Import**.
-
+>    ![Intune Suite – image 05](media/lab01/Exercice6/05.PNG)
 1. Wait for the import to complete. A notification will appear when the import finishes (typically 1–2 minutes).
 
 1. After import completes, refresh the **Devices** page. You should see **SEA-DEV3** appear in the Autopilot devices list.
 
    > [!NOTE]
    > It can take 5–10 minutes for SEA-DEV3 to appear. Refresh the page periodically.
-
+>    ![Intune Suite – image 06](media/lab01/Exercice6/06.png)
 **You have successfully uploaded the SEA-DEV3 hardware hash to Intune.**
 
 ---
