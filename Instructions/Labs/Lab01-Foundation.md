@@ -996,7 +996,7 @@ The Autopilot hardware hash uniquely identifies a device and is required for Aut
    Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
    Install-Script -Name Get-WindowsAutopilotInfo -Force
    ```
-
+>    ![Intune Suite – image 06](media/lab01/Exercice6/01.PNG)
 1. After installation completes, generate the Autopilot hardware hash and export it to a CSV file:
 
    ```powershell
@@ -1010,7 +1010,7 @@ The Autopilot hardware hash uniquely identifies a device and is required for Aut
    ```
 
    The output should return **True**.
-
+>    ![Intune Suite – image 02](media/lab01/Exercice6/02.PNG)
 1. Open the CSV file to verify the hardware hash was captured:
 
    ```powershell
@@ -1021,7 +1021,7 @@ The Autopilot hardware hash uniquely identifies a device and is required for Aut
    - **Device Serial Number**
    - **Windows Product ID**
    - **Hardware Hash** (long base64-encoded string)
-
+>    ![Intune Suite – image 03](media/lab01/Exercice6/06.PNG)
 1. Close Notepad.
 
 **You have successfully generated the Autopilot hardware hash for SEA-DEV3.**
