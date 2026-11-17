@@ -1058,6 +1058,7 @@ The Autopilot hardware hash uniquely identifies a device and is required for Aut
    > [!NOTE]
    > It can take 5–10 minutes for SEA-DEV3 to appear. Refresh the page periodically.
 >    ![Intune Suite – image 06](media/lab01/Exercice6/06.png)
+>    ![Intune Suite – image 07](media/lab01/Exercice6/07.PNG)
 **You have successfully uploaded the SEA-DEV3 hardware hash to Intune.**
 
 ---
