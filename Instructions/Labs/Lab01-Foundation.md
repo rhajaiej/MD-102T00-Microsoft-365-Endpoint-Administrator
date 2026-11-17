@@ -1068,14 +1068,14 @@ The Autopilot hardware hash uniquely identifies a device and is required for Aut
 Autopilot deployment profiles define the OOBE experience and determine which settings users can configure during setup.
 
 1. In the **Microsoft Intune admin center**, on the **Device | Enrollment** page, select **Deployment Profiles** (under Windows Autopilot).
-
+>    ![Intune Suite – image 08](media/lab01/Exercice6/08.png)
 1. Select **Create profile** → **Windows PC**.
-
+>    ![Intune Suite – image 09](media/lab01/Exercice6/09.png)
 1. On the **Basics** tab, enter:
    - **Name:** `Autopilot User Driven Profile`
    - **Description:** `User driven Microsoft Entra join profile for Windows Autopilot`
    - **Convert all targeted devices to Autopilot:** No
-
+>    ![Intune Suite – image 10](media/lab01/Exercice6/10.png)
 1. Select **Next**.
 
 1. On the **Out-of-box experience (OOBE)** tab, configure the following:
@@ -1087,11 +1087,11 @@ Autopilot deployment profiles define the OOBE experience and determine which set
    - **User account type:** Standard
    - **Allow pre-provisioned deployment:** No
    - **Apply device name template:** No
-
+>    ![Intune Suite – image 11](media/lab01/Exercice6/11.PNG)
 1. Select **Next** and **Next** again to skip **Scope tags**.
-
+>    ![Intune Suite – image 12](media/lab01/Exercice6/12.PNG)
 1. On the **Assignments** tab, under **Include groups**, select **Add groups**.
-
+>    ![Intune Suite – image 13](media/lab01/Exercice6/13.png)
 1. Search for and select **dyn-Autopilot-Devices**.
 
 1. Select **Select**.
@@ -1099,7 +1099,8 @@ Autopilot deployment profiles define the OOBE experience and determine which set
 1. Select **Next**.
 
 1. On the **Review + create** tab, review the settings and select **Create**.
-
+>    ![Intune Suite – image 14](media/lab01/Exercice6/14.PNG)
+>    ![Intune Suite – image 15](media/lab01/Exercice6/15.PNG)
 **You have successfully created a Windows Autopilot deployment profile.**
 
 ---
