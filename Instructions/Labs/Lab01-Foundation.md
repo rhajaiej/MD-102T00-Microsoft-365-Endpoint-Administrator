@@ -1099,8 +1099,8 @@ Autopilot deployment profiles define the OOBE experience and determine which set
 1. Select **Next**.
 
 1. On the **Review + create** tab, review the settings and select **Create**.
->    ![Intune Suite – image 14](media/lab01/Exercice6/14.PNG)
->    ![Intune Suite – image 15](media/lab01/Exercice6/15.PNGg)
+>    ![Intune Suite – image 14](media/lab01/Exercice6/14.PNGg)
+>    ![Intune Suite – image 15](media/lab01/Exercice6/15.PNG)
 **You have successfully created a Windows Autopilot deployment profile.**
 
 ---
