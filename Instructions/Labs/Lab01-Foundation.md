@@ -1091,7 +1091,7 @@ Autopilot deployment profiles define the OOBE experience and determine which set
 1. Select **Next** and **Next** again to skip **Scope tags**.
 >    ![Intune Suite – image 12](media/lab01/Exercice6/12.PNG)
 1. On the **Assignments** tab, under **Include groups**, select **Add groups**.
->    ![Intune Suite – image 13](media/lab01/Exercice6/13.pngg)
+>    ![Intune Suite – image 13](media/lab01/Exercice6/13.png)
 1. Search for and select **dyn-Autopilot-Devices**.
 
 1. Select **Select**.
@@ -1099,7 +1099,7 @@ Autopilot deployment profiles define the OOBE experience and determine which set
 1. Select **Next**.
 
 1. On the **Review + create** tab, review the settings and select **Create**.
->    ![Intune Suite – image 14](media/lab01/Exercice6/14.PNGg)
+>    ![Intune Suite – image 14](media/lab01/Exercice6/14.PNG)
 >    ![Intune Suite – image 15](media/lab01/Exercice6/15.PNG)
 **You have successfully created a Windows Autopilot deployment profile.**
 
