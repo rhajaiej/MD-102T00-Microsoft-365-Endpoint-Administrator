@@ -1108,14 +1108,14 @@ Autopilot deployment profiles define the OOBE experience and determine which set
 ### Task 4: Review the Autopilot profile status for SEA-DEV3
 
 1. In the **Microsoft Intune admin center**, navigate to **Devices** → **Enrollment** → **Devices** (under Windows Autopilot).
-
+>    ![Intune Suite – image 16](media/lab01/Exercice6/16.PNG)
 1. Select the serial number for the only device listed (which represents **SEA-DEV3**) from the Autopilot devices list.
 
 1. Review the device details:
    - **Profile status:** Should now show **Assigned** (it may take a few minutes for the dynamic group to populate and the profile assignment to sync)
    - **Group tag:** None
    - **User:** unassigned 
-
+>    ![Intune Suite – image 17](media/lab01/Exercice6/17.png)
    > [!NOTE]
    > If it still shows **Not assigned** after several minutes, select **Sync** on the **Devices** list. Also confirm that SEA-DEV3 is a member of `dyn-Autopilot-Devices`.
 
