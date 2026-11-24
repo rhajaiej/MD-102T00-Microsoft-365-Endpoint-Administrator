@@ -1145,7 +1145,16 @@ In a production environment, the next step would be to reset SEA-DEV3 and go thr
 1. **User desktop:** The user reaches the desktop with a fully configured device.
 
 **You now understand the Windows Autopilot deployment workflow.**
-
+>    ![Intune Suite – image 18](media/lab01/Exercice6/18.PNG)
+>    ![Intune Suite – image 19](media/lab01/Exercice6/19.PNG)
+>    ![Intune Suite – image 20](media/lab01/Exercice6/20.PNG)
+>    ![Intune Suite – image 21](media/lab01/Exercice6/21.PNG)
+>    ![Intune Suite – image 22](media/lab01/Exercice6/22.PNG)
+>    ![Intune Suite – image 23](media/lab01/Exercice6/23.PNG)
+>    ![Intune Suite – image 24](media/lab01/Exercice6/24.PNG)
+>    ![Intune Suite – image 25](media/lab01/Exercice6/25.PNG)
+>    ![Intune Suite – image 26](media/lab01/Exercice6/26.PNG)
+>    ![Intune Suite – image 27](media/lab01/Exercice6/27.PNG)
 ---
 
 ## Lab Summary
